@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Creación de fuentes */
+
+@font-face {
+    font-family: "Montserrat Thin";
+    src: url(../../public/fonts/Montserrat-Thin.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat ExtraLight";
+    src: url(../../public/fonts/Montserrat-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Light";
+    src: url(../../public/fonts/Montserrat-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(../../public/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url(../../public/fonts/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url(../../public/fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../../public/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat ExtraBold";
+    src: url(../../public/fonts/Montserrat-ExtraBold.ttf) format("truetype");
+}
+
+/* Letra modals Swal */
+.custom-swal-font {
+    font-family: "Montserrat Regular", sans-serif;
+}

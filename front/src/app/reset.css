@@ -1,0 +1,88 @@
+/* Reset CSS */
+
+/* Establecer el tamaño de fuente en todos los elementos a 16px */
+html {
+    font-size: 16px;
+}
+
+/* Eliminar los márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Eliminar los márgenes predeterminados de la lista */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Establecer estilos predeterminados para elementos de formulario */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+
+/* Corregir la visualización de los elementos en línea en IE */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* Establecer márgenes a cero y estilo de fuente predeterminado */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* Establecer bordes predeterminados */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reiniciar caja de dimensiones */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
