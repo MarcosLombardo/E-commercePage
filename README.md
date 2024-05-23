@@ -1,88 +1,88 @@
 # Mpple
 
-## Description
+## Descripción
 
-This project is an e-commerce website that allows users to browse and buy products. It uses modern technologies to provide a fast and efficient user experience.
+Este proyecto es prototipo de un e-commerce que permite a los usuarios navegar y comprar productos. Utiliza tecnologías modernas para ofrecer una experiencia de usuario rápida y eficaz.
 
-## Technologies Used
+## Tecnologías utilizadas
 
 ### Frontend
 
-- **Next.js** with **TypeScript**
-- **Tailwind CSS** for the styles
+- **Next.js** con **TypeScript**
+- **Tailwind CSS** para los estilos.
 
 ### Backend
 
-- Connecting to a pre-existing backend using `fetch`.
+- Conexión a un backend preexistente mediante `fetch`.
 
-## Functionalities
+## Funcionalidades
 
-### Sections
+### Secciones
 
-- **Home:** Home page where you can see products and categories.
-- **Products:** List of available products.
-- **Categories:** Navigation by product category.
-- **Registration and Login:** 
-  - **Registration:** Allows new users to create an account.
-  - **Login:** Allows existing users to log in.
-  - **Token JWT:** After login, a JWT token is generated and stored in `localStorage`.
+- **Home:** Página de inicio donde puede ver los productos y las categorías.
+- **Productos:** Lista de productos disponibles.
+- **Categorías:** Navegación por categorías de productos.
+- **Registro e inicio de sesión:** 
+  - **Registro:** Permite a los nuevos usuarios crear una cuenta.
+  - **Inicio de sesión:** Permite iniciar sesión a los usuarios existentes.
+  - **Token JWT:** Después de iniciar sesión, se genera un token JWT y se almacena en `localStorage`.
 
-### Shopping Cart and Shopping
+### Carrito de compra
 
-- **Add to cart:** Logged in users can add products to the cart.
-- **Make Purchases:** Logged in users can proceed to purchase the products in their shopping cart.
-- **See Shopping:** Users can view their purchases.
+- **Añadir al carrito:** Los usuarios registrados pueden añadir productos al carrito.
+- **Realizar compras:** Los usuarios registrados pueden proceder a la compra de los productos elegidos.
+- **Ver compras:** Los usuarios pueden ver un historial de las compras realizadas.
 
-### Installation
+### Instalación
 
-To run this project on your local machine, follow these steps:
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-1. **Clone the repository:**
+1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/TuUsuario/E-commercePage.git
 
-2. **Navigate to the project directory:**
+2. **Navegue hasta el directorio del proyecto:**
    ```bash
    cd E-commercePage
 
 ## Frontend
 
-1. **Install dependencies:**
+1. **Instalar dependencias:**
    ```bash
    npm install
 
-2. **Start the Next.js application:**
+2. **Iniciar la aplicación Next.js:**
    ```bash
    npm run dev
 
-3. **Open the project in your browser:**
+3. **Abra el proyecto en su navegador:**
    ```bash
-   Go to http://localhost:3000 to see the application in action.
+   Visite 'http://localhost:3000' para ver la aplicación en acción.
 
 ## Backend
 
-The backend is already included in the project. Make sure you have the backend running and configured correctly to accept connections from the frontend.
+El backend ya está incluido en el proyecto. Asegúrese de que tiene el backend funcionando y configurado correctamente para aceptar conexiones desde el frontend.
 
-### Use
+### Uso
 
-## Registration and Login
+## Registro e inicio de sesión
 
-- **Registration:**
-  - Navigate to the registration page and complete the form to create an account.
-- **Login:**
-  - Once registered, navigate to the login page and provide your credentials to log in.
-  - The JWT token shall be stored in localStorage.
+- **Registro:**
+  - Vaya a la página de registro y llene el formulario para crear una cuenta.
+- **Inicio de sesión:**
+  - Una vez registrado, vaya a la página de inicio de sesión e introduzca sus credenciales para iniciar sesión.
+  - El token JWT se generará automáticamente y se almacenará en localStorage.
 
-## Navigation and Shopping
+## Navegación y compras
 
-- **Browse Products and Categories:**
-  - From the home page, browse products or categories as you prefer.
-- **Add to cart:**
-  - Select products and add them to the cart (requires login).
-- **Make Purchases:**
+- **Buscar productos y categorías:**
+  - Desde la página de inicio, navegue por los productos o las categorías que prefiera.
+- **Añadir al carrito:**
+  - Seleccionar productos y añadirlos al carrito (requiere que el usuario haya iniciado sesión).
+- **Realizar compras:**
   - Procede a la compra de los productos en tu carrito.
-  - Once you have completed your purchase, you will be able to see the details of your purchase in the corresponding section.
+  - Una vez que haya completado su compra, podrá ver los detalles de la misma en la sección correspondiente.
 
-### Author
+### Autor
 
-Created by **Marcos Pedro Lombardo**. If you have any questions, feel free to contact me.
+Creado por **Marcos Pedro Lombardo**. Si tiene alguna pregunta, no dude en ponerse en contacto conmigo.
